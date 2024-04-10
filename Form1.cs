@@ -14,6 +14,7 @@ namespace LBTemplate
 {
     public partial class Form1 : Form
     {
+        //TODO: Соединение не стоит держать постоянно
         SqlConnection conn;
         bool cbGroupsCreated = false;
         bool cbStudentCreated = false;
@@ -30,6 +31,7 @@ namespace LBTemplate
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //TODO: Соединение не стоит держать постоянно
             conn = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=MyStudents");
             SqlCommand sqlCommand = new SqlCommand("SELECT * FROM [dbo].[Groups]", conn);
             SqlDataAdapter adapter = new SqlDataAdapter();
@@ -90,6 +92,7 @@ namespace LBTemplate
                 return;
 
             String value = cb_Student.SelectedValue.ToString();
+            //TODO: Дать пользователю выбор из какой таблицы какие данные забирать
             SqlCommand sqlCommand = new SqlCommand($"SELECT [Not done], [Homework], [Wrong] FROM [dbo].[Account] WHERE [StudentID] = {value}", conn);
             SqlDataAdapter adapter = new SqlDataAdapter();
             adapter.SelectCommand = sqlCommand;
