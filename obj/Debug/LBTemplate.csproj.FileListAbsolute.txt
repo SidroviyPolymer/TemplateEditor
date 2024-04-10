@@ -1,0 +1,10 @@
+D:\Programs\C#\LBTemplate\bin\Debug\LBTemplate.exe.config
+D:\Programs\C#\LBTemplate\bin\Debug\LBTemplate.exe
+D:\Programs\C#\LBTemplate\bin\Debug\LBTemplate.pdb
+D:\Programs\C#\LBTemplate\obj\Debug\LBTemplate.csproj.AssemblyReference.cache
+D:\Programs\C#\LBTemplate\obj\Debug\LBTemplate.Properties.Resources.resources
+D:\Programs\C#\LBTemplate\obj\Debug\LBTemplate.csproj.GenerateResource.cache
+D:\Programs\C#\LBTemplate\obj\Debug\LBTemplate.csproj.CoreCompileInputs.cache
+D:\Programs\C#\LBTemplate\obj\Debug\LBTemplate.exe
+D:\Programs\C#\LBTemplate\obj\Debug\LBTemplate.pdb
+D:\Programs\C#\LBTemplate\obj\Debug\LBTemplate.Form1.resources
